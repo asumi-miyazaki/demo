@@ -43,6 +43,7 @@ class CounterTest {
 		int result = counter.increment();
 		assertEquals(2, result, "値が正しくありません");
 	}
+	
 	@Test
 	@DisplayName("incrementメソッドを50回実行した状態で、incrementメソッドを実行すると５１が取得できる")
 	void Countertest3() {
@@ -54,5 +55,4 @@ class CounterTest {
 		result = counter.increment();
 		assertEquals(51, result, "値が正しくありません");
 	}
-
 }
